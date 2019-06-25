@@ -1,0 +1,30 @@
+header {
+    margin: 20px 0;
+    text-align: center;
+}
+
+header > * {
+    margin: 0 5px;
+}
+
+.cell {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    text-align: center;
+    line-height: 16px;
+}
+
+.cell:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.map {
+    text-align: center;
+}
+
+.map > div {
+    white-space: nowrap;
+}
+
